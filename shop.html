@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Barbershop Borodinsky:магазин</title>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/shop.css">
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="layout-center-wrapper clearfix">
+      <nav>
+        <ul class="top-menu">
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Информация</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="price-list.html">Прайс-лист</a></li>
+          <li><a class="active">Магазин</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <div class="account-menu">
+        <a class="account-menu-enter" href="#">Вход</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="layout-center-wrapper clearfix">
+    <h1 class="page-title">Barbershop Borodinski — магазин</h1>
+
+    <div class="breadcrumbs">
+      <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Магазин</a></li>
+        <li><a href="#">Средства для ухода</a></li>
+      </ul>
+    </div>
+
+    <form action="/echo" class="form" method="post">
+
+      <h2>Производители</h2>
+
+      <div class="filter">
+        <input checked id="baxter-of-california" type="checkbox" name="baxter-of-california">
+        <label for="baxter-of-california">Baxter of California</label>
+      </div>
+
+      <div class="filter">
+        <input id="mr-natti" type="checkbox" name="mr-natti">
+        <label for="mr-natti">Mr Natti</label>
+      </div>
+
+      <div class="filter">
+        <input checked id="suavecito" type="checkbox" name="suavecito">
+        <label for="suavecito">Suavecito</label>
+      </div>
+
+      <div class="filter">
+        <input id="malin+goetz" type="checkbox" name="malin+goetz">
+        <label for="malin+goetz">Malin+Goetz</label>
+      </div>
+
+      <div class="filter">
+        <input id="murray's" type="checkbox" name="murray's">
+        <label for="murray's">Murray's</label>
+      </div>
+
+      <div class="filter">
+        <input checked id="american-crew" type="checkbox" name="american-crew">
+        <label for="american-crew">American crew</label>
+      </div>
+
+      <h2 class="radio">Группы товаров:</h2>
+
+      <div class="filter">
+        <input checked id="razors" type="radio" name="group">
+        <label for="razors"><span class="line-height">Бритвенные</span>
+        <span class="shift">принадлежности</span></label>
+      </div>
+
+      <div class="filter">
+        <input id="meansforcare" type="radio" name="group">
+        <label for="meansforcare">Средства для ухода</label>
+      </div>
+
+      <div class="filter">
+        <input id="accessories" type="radio" name="group">
+        <label for="accessories">Аксессуары</label>
+      </div>
+    </form>
+
+    <div class="catalog">
+      <ul class="catalog-items">
+        <li>
+          <a href="item.html"><img alt="Baxter of California" src="pic/picture-shop-item-1.jpg"></a>
+          <a class="letter-uppercase" href="item.html">Baxter of California</a>
+          <a class="letter-norm" href="#">Набор для путешествий</a>
+          <div class="price-buy clearfix">
+            <div class="price">
+              2 900 руб.
+            </div>
+            <a class="btn buy" href="#">Купить</a>
+          </div>
+        </li>
+
+        <li>
+          <a href="#"><img alt="Baxter of California" src="pic/picture-shop-item-2.jpg"></a>
+          <a class="letter-uppercase" href="#">Baxter of California</a>
+          <a href="#" class="letter-norm">Увлажняющий кондиционер</a>
+          <div class="price-buy clearfix">
+            <div class="price">
+              750 руб.
+            </div>
+            <a class="btn buy" href="#">Купить</a>
+          </div>
+        </li>
+
+        <li>
+          <a href="#"><img alt="Suavecito" src="pic/picture-shop-item-3.jpg"></a>
+          <a class="letter-uppercase" href="#">Suavecito</a>
+          <a class="letter-norm" href="#">Гель для волос</a>
+          <div class="price-buy clearfix">
+            <div class="price">
+              290 руб.
+            </div>
+            <a class="btn buy" href="#">Купить</a>
+          </div>
+        </li>
+
+        <li>
+          <a href="#"><img alt="American crew" src="pic/picture-shop-item-4.jpg"></a>
+          <a class="letter-uppercase" href="#">American crew</a>
+          <a class="letter-norm" href="#">Глина для укладки волос</a>
+          <div class="price-buy clearfix">
+            <div class="price">
+              500 руб.
+            </div>
+            <a class="btn buy" href="#">Купить</a>
+          </div>
+        </li>
+
+        <li>
+          <a href="#"><img alt="American crew" src="pic/picture-shop-item-5.jpg"></a>
+          <a class="letter-uppercase" href="#">American crew</a>
+          <a class="letter-norm" href="#">Глина для волос</a>
+          <div class="price-buy clearfix">
+            <div class="price">
+              300 руб.
+            </div>
+            <a class="btn buy" href="#">Купить</a>
+          </div>
+        </li>
+
+        <li>
+          <a href="#"><img alt="Baxter of California" src="pic/picture-shop-item-6.jpg"></a>
+          <a class="letter-uppercase" href="#">Baxter of California</a>
+          <a class="letter-norm" href="#">Набор для бритья</a>
+          <div class="price-buy clearfix">
+            <div class="price">
+              3 900 руб.
+            </div>
+            <a class="btn buy" href="#">Купить</a>
+          </div>
+        </li>
+      </ul>
+
+      <div class="pagination">
+        <a class="btn" href="#">1</a>
+        <a class="btn current">2</a>
+        <a class="btn" href="#">3</a>
+        <a class="btn" href="#">4</a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="page-footer">
+    <div class="layout-center-wrapper">
+      <div class="contacts-address">
+        <p>Barbershop «Borodinski»</p>
+
+        <p>Адрес: г. Москва, ул. Собаки Павлова, д. 13</p>
+
+        <p>Телефон: +7 (495) 666-02-666</p>
+      </div>
+
+      <div class="social-buttons">
+        <p>Давайте дружить!</p>
+        <a class="btn-social btn-social-vk" href="http://vk.com">Мы ВКонтакте</a>
+        <a class="btn-social btn-social-fb" href="http://facebook.com">Мы на Facebook</a>
+        <a class="btn-social btn-social-inst" href="http://instagram.com">Мы в Instagram</a>
+      </div>
+
+      <div class="design">
+        <p>Дизайн сайта:</p>
+        <a class="btn copyright" href="http://glukhanko.ru/">glukhanko.ru</a>
+      </div>
+    </div>
+  </footer>
+  <div class="login-popup">
+      <a href="#" class="login-popup-close">✕</a>
+      <h2 class="index-section-title">Личный кабинет</h2>
+      <p>Введите пожалуйста свой логин и пароль<br>
+         если вы забыли пароль</p>
+      <form class="login-form" action="/auth" method="post">
+        <input class="login-field" type="text" name="login" placeholder="Логин"><div class="icon icon-user"></div>
+        <input class="password-field" type="password" name="password" placeholder="Пароль"><div class="icon icon-lock"></div>
+        <a class="restore" href="/restore">Я забыл пароль</a>
+        <input id="remember" type="checkbox" name="remember">
+        <label for="remember"> Запомните меня</label>
+        <input type="submit" value="Войти">
+      </form>
+    </div>
+<script>
+
+  var link = document.querySelector('.account-menu-enter');
+  var popup = document.querySelector('.login-popup');
+  var close = popup.querySelector('.login-popup-close');
+  var form = popup.querySelector('form');
+  var login = form.querySelector('.login-field');
+  var password = form.querySelector('.password-field');
+  var storage = localStorage.getItem('login');
+
+  link.addEventListener('click', function(event) {
+    event.preventDefault();
+    popup.classList.add('login-popup-show');
+    if (storage) {
+      login.value = storage;
+      password.focus();
+    } else {
+      login.focus();
+    }
+  }, false);
+
+  close.addEventListener('click', function(event) {
+    event.preventDefault();
+    popup.classList.remove('login-popup-show');
+  }, false);
+
+  form.addEventListener('submit', function(event) {
+    if (!login.value || !password.value) {
+      event.preventDefault();
+      popup.classList.add('login-popup-error');
+    } else {
+      localStorage.setItem('login', login.value);
+    }
+  }, false);
+
+  window.addEventListener('keydown', function(event) {
+    if (event.keyCode == 27 && popup.classList.contains('login-popup-show')) {
+      popup.classList.remove('login-popup-show');
+    }
+  }, false);
+
+</script>
+</body>
+</html>
