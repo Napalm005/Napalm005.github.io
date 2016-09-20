@@ -1,181 +1,130 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Barbershop Borodinsky</title>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-        <header class="page-header">
-            <div class="layout-center-wrapper clearfix">
-                <nav>
-                    <ul class="top-menu">
-                        <li><a class="active" href="#">Главная</a></li>
-                        <li><a href="#">Информация</a></li>
-                        <li><a href="#">Новости</a></li>
-                        <li><a href="price-list.html">Прайс-лист</a></li>
-                        <li><a href="shop.html">Магазин</a></li>
-                        <li><a href="#">Контакты</a></li>
-                    </ul>
-                </nav>
-                <div class="account-menu">
-                    <a class="account-menu-enter" href="#">Вход</a>
-                </div>
-            </div>
-        </header>
-        <div class="layout-center-wrapper">
-            <a class="logo" href="#">Barbershop Borodinski</a>
-            <ul class="features clearfix">
-                <li>
-                    <div class="feature-title">Быстро</div>
-                    <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладетель стильной стрижки-минутки!</p>
-                </li>
-                <li>
-                    <div class="feature-title">Круто</div>
-                    <p>Забудьте, как вы стриглись раньше.<br>
-                    Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
-                </li>
-                <li>
-                    <div class="feature-title">Дорого</div>
-                    <p>Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определеный статус?</p>
-                </li>
-            </ul>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Mono&subset=latin,cyrillic">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Код и Магия</title>
+</head>
+<body>
 
-            <div class="index-section">
-                <div class="index-left-column">
-                    <div class="index-section-title">Новости</div>
-                    <ul class="index-news">
-                        <li>
-                            <a href="#">Нам наконец завезли Ягермейстер! Теперь вы можете пропустить стаканчик во время стрижки<time class="date">25 сентября</time></a>
-                        </li>
-                        <li>
-                            <a href="#">В нашей команде пополнение, Борис «Бритва» Стригунец, обладетель множетсва титулов и наград пополнил наши стройные ряды<time class="date">19 сентября</time></a>
-                        </li>
-                    </ul>
-                    <a href="#" class="btn">Все новости</a>
-                </div>
-                <div class="index-right-column">
-                    <div class="index-section-title">Фотогалерея</div>
-                    <div class="gallery">
-                        <div class="gallery-items">
-                            <a class="gallery-item" href="#"><img src="pic/picture-inter'er.jpg" alt="Интерьер"></a>
-                            <a class="gallery-item" href="#"><img src="" alt="Интерьер"></a>
-                            <a class="gallery-item" href="#"><img src="" alt="Интерьер"></a>
-                        </div>
-                        <div class="gallery-controls">
-                            <button class="btn btn-prev">Назад</button>
-                            <button class="btn btn-next">Вперед</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<header>
+  <div class="header-clouds"></div>
+  <div class="header-fence"></div>
+  <div class="header-tree"></div>
 
-            <div class="index-section">
-                <div class="index-left-column">
-                    <div class="index-section-title">Контактная информация</div>
-                    <div class="contacts-address">
-                        <p>Barbershop «Borodinski»<br>
-                           Адрес: г. Москва, ул. Собаки Павлова, д. 13<br>
-                           Телефон: +7 (495) 666-02-666</p>
-                    </div>
-                    <div class="contacts-work-time">
-                        <p>Время работы: <br>
-                        пн — пт: с 10:00 до 22:00 <br>
-                        сб — вс: с 10:00 до 19:00</p>
-                    </div>
-                    <a href="#" class="btn">Как проехать</a>
-                    <a href="#" class="btn">Обратная связь</a>
-                </div>
-                <div class="index-right-column">
-                    <div class="index-section-title">Записаться</div>
-                    <p>Укажите желаемую дату и время и мы свяжемся<br>
-                    с Вами для подтверждения брони</p>
-                    <form action="#" method="post" id="orderForm">
-                                <input type="text" name="date" placeholder="Дата">
-                                <input type="text" name="time" placeholder="Время">
-                                <input type="text" name="name" placeholder="Ваше имя">
-                                <input type="text" name="phone" placeholder="Телефон">
-                                <input type="submit" class="btn" value="Отправить">
-                    </form>
-                </div>
-            </div>
-        </div>
-        <footer class="page-footer">
-            <div class="layout-center-wrapper">
-                <div class="contacts-address">
-                    <p>Barbershop «Borodinski»<br>
-                       Адрес: г. Москва, ул. Собаки Павлова, д. 13<br>
-                       Телефон: +7 (495) 666-02-666</p>
-                </div>
-                <div class="social-buttons">
-                    <p>Давайте дружить!</p>
-                    <a href="http://vk.com" class="btn-social btn-social-vk">Мы ВКонтакте</a>
-                    <a href="http://facebook.com" class="btn-social btn-social-fb">Мы в Facebook</a>
-                    <a href="http://instagram.com" class="btn-social btn-social-inst">Мы в Instagram</a>
-                </div>
-                <div class="design">
-                    <p>Дизайн сайта:</p>
-                    <a class="btn copyright" href="http://glukhanko.ru/">glukhanko.ru</a>
-                </div>
-            </div>
-        </footer>
-        <div class="login-popup">
-      <a href="#" class="login-popup-close">✕</a>
-      <h2 class="index-section-title">Личный кабинет</h2>
-      <p>Введите пожалуйста свой логин и пароль<br>
-         если вы забыли пароль</p>
-      <form class="login-form" action="/auth" method="post">
-        <input class="login-field" type="text" name="login" placeholder="Логин"><div class="icon icon-user"></div>
-        <input class="password-field" type="password" name="password" placeholder="Пароль"><div class="icon icon-lock"></div>
-        <a class="restore" href="/restore">Я забыл пароль</a>
-        <input id="remember" type="checkbox" name="remember">
-        <label for="remember"> Запомните меня</label>
-        <input type="submit" value="Войти">
-      </form>
+  <span class="header-soon">Скоро</span>
+  <h1 class="header-title">Code&thinsp;and&thinsp;Magick</h1>
+  <p class="header-description">
+    Это игра, где главного героя, которым вам предстоит управлять и изменять заклинаниями окружающий мир зовут Пендальф Синий.
+    Вместе с ним вас ждет увлекательное приключение&hellip;
+  </p>
+  <div class="demo"></div>
+
+</header>
+
+<main>
+  <section class="main-section photogallery">
+    <h2 class="section-title photogallery-title">Фотогалерея</h2>
+    <a href="#" class="photogallery-image"><img src="img/screenshots/1.png" width="292"></a>
+    <a href="#" class="photogallery-image"><img src="img/screenshots/2.png" width="292"></a>
+    <a href="#" class="photogallery-image"><img src="img/screenshots/3.png" width="292"></a>
+    <a href="#" class="photogallery-image"><img src="img/screenshots/4.png" height="271"></a>
+    <a href="#" class="photogallery-image"><img src="img/screenshots/5.png" height="271"></a>
+    <a href="#" class="photogallery-image" data-replacement-video="img/screenshots/cm-sample.mp4"><img src="img/screenshots/6.png" width="292"></a>
+  </section>
+
+  <section class="main-section reviews">
+    <h2 class="section-title reviews-title">Отзывы</h2>
+
+    <form class="reviews-filter" action="index.html" method="get">
+      <input type="radio" name="reviews" id="reviews-all" value="reviews-all" checked><label for="reviews-all" class="reviews-filter-item"> Все</label>
+      <input type="radio" name="reviews" id="reviews-recent" value="reviews-recent"><label for="reviews-recent" class="reviews-filter-item"> Недавние</label>
+      <input type="radio" name="reviews" id="reviews-good" value="reviews-good"><label for="reviews-good" class="reviews-filter-item"> Хорошие</label>
+      <input type="radio" name="reviews" id="reviews-bad" value="reviews-bad"><label for="reviews-bad" class="reviews-filter-item"> Плохие</label>
+      <input type="radio" name="reviews" id="reviews-popular" value="reviews-popular"><label for="reviews-popular" class="reviews-filter-item"> Популярные</label>
+    </form>
+
+    <div class="reviews-list"></div>
+
+    <div class="reviews-controls">
+      <span class="reviews-controls-item reviews-controls-more">Ещё отзывы</span>
+      <span class="reviews-controls-item reviews-controls-new">+ Добавить свой</span>
     </div>
-<script>
+  </section>
 
-  var link = document.querySelector('.account-menu-enter');
-  var popup = document.querySelector('.login-popup');
-  var close = popup.querySelector('.login-popup-close');
-  var form = popup.querySelector('form');
-  var login = form.querySelector('.login-field');
-  var password = form.querySelector('.password-field');
-  var storage = localStorage.getItem('login');
+  <footer>
+    <a href="http://htmlacademy.ru"><img src="img/htmlacademy-logo.png" alt="HTML Academy" width="134" height="37"></a>
+    <p><a href="http://htmlacademy.ru">Сделано в HTML Academy</a><br>в 2016 году</p>
+  </footer>
+</main>
 
-  link.addEventListener('click', function(event) {
-    event.preventDefault();
-    popup.classList.add('login-popup-show');
-    if (storage) {
-      login.value = storage;
-      password.focus();
-    } else {
-      login.focus();
-    }
-  }, false);
+<div class="overlay-container invisible">
+  <form class="overlay review-form" action="index.html" method="post">
+    <h2 class="review-form-title">Оставить отзыв</h2>
+    <span class="review-form-close">&times;</span>
 
-  close.addEventListener('click', function(event) {
-    event.preventDefault();
-    popup.classList.remove('login-popup-show');
-  }, false);
+    <fieldset class="review-form-group review-form-group-mark">
+      <span class="review-form-label">Оценка</span><br>
+      <input type="radio" name="review-mark" id="review-mark-1" value="1"><label class="review-mark-label review-mark-label-1" for="review-mark-1">1</label>
+      <input type="radio" name="review-mark" id="review-mark-2" value="2"><label class="review-mark-label review-mark-label-2" for="review-mark-2">2</label>
+      <input type="radio" name="review-mark" id="review-mark-3" value="3" checked><label class="review-mark-label review-mark-label-3" for="review-mark-3">3</label>
+      <input type="radio" name="review-mark" id="review-mark-4" value="4"><label class="review-mark-label review-mark-label-4" for="review-mark-4">4</label>
+      <input type="radio" name="review-mark" id="review-mark-5" value="5"><label class="review-mark-label review-mark-label-5" for="review-mark-5">5</label>
+    </fieldset>
 
-  form.addEventListener('submit', function(event) {
-    if (!login.value || !password.value) {
-      event.preventDefault();
-      popup.classList.add('login-popup-error');
-    } else {
-      localStorage.setItem('login', login.value);
-    }
-  }, false);
+    <fieldset class="review-form-group">
+      <label for="review-name" class="review-form-label">Имя</label><br>
+      <input type="text" name="review-name" id="review-name" class="review-form-field review-form-field-name">
+    </fieldset>
 
-  window.addEventListener('keydown', function(event) {
-    if (event.keyCode == 27 && popup.classList.contains('login-popup-show')) {
-      popup.classList.remove('login-popup-show');
-    }
-  }, false);
+    <fieldset class="review-form-group">
+      <label for="review-text" class="review-form-label">Отзыв</label><br>
+      <textarea name="review-text" id="review-text" class="review-form-field review-form-field-text" cols="32" rows="8"></textarea>
+    </fieldset>
 
-</script>
-  </body>
+    <div class="review-form-controls">
+      <button class="review-form-control review-submit" type="submit">Добавить отзыв</button>
+      <div class="review-form-control review-fields">
+        Осталось заполнить:<br>
+        <label for="review-name" class="review-fields-label review-fields-name">имя</label>
+        <label for="review-text" class="review-fields-label review-fields-text">отзыв</label>
+      </div>
+    </div>
+  </form>
+</div>
+
+<div class="overlay-gallery invisible">
+  <span class="overlay-gallery-close">&times;</span>
+  <div class="overlay-gallery-controls">
+    <div class="overlay-gallery-control overlay-gallery-control-left"></div>
+    <div class="overlay-gallery-preview">
+      <div class="overlay-gallery-preview-number"><span class="preview-number-current">1</span> из <span class="preview-number-total">5</span></div>
+    </div>
+    <div class="overlay-gallery-control overlay-gallery-control-right"></div>
+  </div>
+</div>
+
+
+<template id="review-template" style="display: none">
+  <article class="review">
+    <img src="" class="review-author" alt="" title="">
+    <span class="review-rating"></span>
+    <p class="review-text"></p>
+    <div class="review-quiz">
+      Полезный отзыв?
+      <span class="review-quiz-answer review-quiz-answer-yes">Да</span>
+      <span class="review-quiz-answer review-quiz-answer-no">Нет</span>
+    </div>
+  </article>
+</template>
+
+<template id="review-empty-template" style="display: none">
+  <article class="review-empty">
+    <p class="review-empty-text">Ни одного отзыва не найдено</p>
+  </article>
+</template>
+
+<script class="main-js" src="js/main.js"></script>
+</body>
 </html>
